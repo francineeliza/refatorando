@@ -1,9 +1,5 @@
-class Tarefa {
+fun main() {
 
-    var tipoTarefa: String
-        get() = "Retorno"
-        set(value) {
-            tipoTarefa = value
-            print("setou")
-        }
+    val ePadoca = EPadocaController()
+    ePadoca.iniciar()
 }

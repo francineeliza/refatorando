@@ -1,2 +1,3 @@
-class Produto {
+data class Produto (val nome: String, val preco: Double, val tipoProduto: TipoProduto) {
+
 }
