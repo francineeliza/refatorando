@@ -1,3 +1,1 @@
-data class Produto (val nome: String, val preco: Double, val tipoProduto: TipoProduto) {
-
-}
+data class Produto (val nome: String, val preco: Double, val tipoProduto: TipoProduto) {}
