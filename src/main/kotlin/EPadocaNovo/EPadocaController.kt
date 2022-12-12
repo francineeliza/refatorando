@@ -1,3 +1,5 @@
+package EPadocaNovo
+
 import kotlin.system.exitProcess
 
 class EPadocaController {
@@ -28,12 +30,12 @@ Y8,                      88       i8'    ,8I  i8'    ,8I  i8'    ,8I   i8'      
         val paoFrances = Produto("Pão Francês",0.60, TipoProduto.PAES)
         val paoDeLeite = Produto("Pão de Leite",0.40, TipoProduto.PAES)
         val paoDeMilho = Produto("Pão de Milho",0.50, TipoProduto.PAES)
-        val coxinha = Produto("Coxinha",5.00,TipoProduto.SALGADOS)
-        val esfiha = Produto("Esfiha", 6.00,TipoProduto.SALGADOS)
+        val coxinha = Produto("Coxinha",5.00, TipoProduto.SALGADOS)
+        val esfiha = Produto("Esfiha", 6.00, TipoProduto.SALGADOS)
         val paoDeQueijo = Produto("Pão de Queijo",3.00, TipoProduto.SALGADOS)
-        val carolina = Produto("Carolina",1.50,TipoProduto.DOCES)
-        val pudim = Produto("Pudim",4.00,TipoProduto.DOCES)
-        val brigadeiro = Produto("Brigadeiro",2.00,TipoProduto.DOCES)
+        val carolina = Produto("Carolina",1.50, TipoProduto.DOCES)
+        val pudim = Produto("Pudim",4.00, TipoProduto.DOCES)
+        val brigadeiro = Produto("Brigadeiro",2.00, TipoProduto.DOCES)
         produtosAVenda = listOf(paoFrances,paoDeLeite,paoDeMilho,coxinha,esfiha,paoDeQueijo,carolina,pudim,brigadeiro)
     }
     private fun imprimeMenuPrincipal() {
